@@ -54,7 +54,7 @@ function elQueMasAparece() {
     const elementWell = document.createElement('a');
     const elementOut = document.createElement('a');
 
-    // Propiedades del objeto datos reconvertido a Objeto
+    // Propiedades del objeto datos reconvertido a objeto
     const nombre = resultadoForm.name;
     const apellido = resultadoForm.surname;
     const email = resultadoForm.email;
