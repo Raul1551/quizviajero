@@ -32,7 +32,7 @@ function elQueMasAparece() {
     const imgAstroturismo = document.createElement('img');
     imgAstroturismo.src = 'https://res.cloudinary.com/udestinations/image/upload/v1666176876/quiz/peril-viajero/astroturismo_z8srga.jpg';
     const imgGastronomico = document.createElement('img');
-    imgGastronomico.src = 'https://res.cloudinary.com/udestinations/image/upload/v1671183745/quiz/peril-viajero/1646833861027_axljop.jpg';
+    imgGastronomico.src = 'https://res.cloudinary.com/udestinations/image/upload/v1671192464/quiz/peril-viajero/WhatsApp_Image_2022-12-16_at_13.01.21_myftgg.jpg';
     const imgHistorico = document.createElement('img');
     imgHistorico.src = 'https://res.cloudinary.com/udestinations/image/upload/v1666176875/quiz/peril-viajero/historico_wwnpob.jpg';
     const imgWellness = document.createElement('img');
