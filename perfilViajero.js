@@ -133,7 +133,7 @@ function elQueMasAparece() {
         document.body.appendChild(elementOut)
     }
     
-    const result = [{
+    /* const result = [{
         nombre: nombre,
         apellido: apellido,
         email: email,
@@ -162,13 +162,20 @@ function elQueMasAparece() {
     } 
     ];
 
-    const resultJson = JSON.stringify(result);
+    const resultJson = JSON.stringify(result); */
 
 
     /* fetch('http://localhost:3000/create', {
         method: 'POST',
         body: resultJson
     });  */
+
+    const perfil = mas_frecuente;
+    const respuestas = [resultado1, resultado2, resultado3, p4, resultado5, resultado6, p7, p8, resultado9, p10,
+                        p11, p12, p13, p14];
+    const result = [nombre, apellido, email, telefono, perfil, respuestas];
+
+    const resultJson = JSON.stringify(result);
 
     
 
