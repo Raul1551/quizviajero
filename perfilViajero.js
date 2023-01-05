@@ -30,7 +30,7 @@ function elQueMasAparece() {
     const valorDesdeLS = document.getElementById('valorDesdeLS');
 
     const imgAstroturismo = document.createElement('img');
-    imgAstroturismo.src = 'https://res.cloudinary.com/udestinations/image/upload/v1666176876/quiz/peril-viajero/astroturismo_z8srga.jpg';
+    imgAstroturismo.src = 'https://res.cloudinary.com/udestinations/image/upload/v1672930425/quiz/peril-viajero/valle-del-jerte-cascada-caozo_ma3zwz.jpg';
     const imgGastronomico = document.createElement('img');
     imgGastronomico.src = 'https://res.cloudinary.com/udestinations/image/upload/v1671192464/quiz/peril-viajero/WhatsApp_Image_2022-12-16_at_13.01.21_myftgg.jpg';
     const imgHistorico = document.createElement('img');
@@ -171,11 +171,10 @@ function elQueMasAparece() {
     });  */
 
     const perfil = mas_frecuente;
-    const respuestas = [resultado1, resultado2, resultado3, p4, resultado5, resultado6, p7, p8, resultado9, p10,
-                        p11, p12, p13, p14];
+    // const respuestas = [resultado1, resultado2, resultado3, p4, resultado5, resultado6, p7, p8, resultado9, p10,
+    //                     p11, p12, p13, p14];
     const result = [nombre, apellido, email, telefono, perfil, resultado1, resultado2, resultado3, p4, resultado5, resultado6, p7, p8, resultado9, p10,
                             p11, p12, p13, p14];
-    // const result = [nombre, apellido, email, telefono, perfil, respuestas];
 
     const resultJson = JSON.stringify(result);
 
