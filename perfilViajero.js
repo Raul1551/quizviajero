@@ -173,7 +173,9 @@ function elQueMasAparece() {
     const perfil = mas_frecuente;
     const respuestas = [resultado1, resultado2, resultado3, p4, resultado5, resultado6, p7, p8, resultado9, p10,
                         p11, p12, p13, p14];
-    const result = [nombre, apellido, email, telefono, perfil, respuestas];
+    const result = [nombre, apellido, email, telefono, perfil, resultado1, resultado2, resultado3, p4, resultado5, resultado6, p7, p8, resultado9, p10,
+                            p11, p12, p13, p14];
+    // const result = [nombre, apellido, email, telefono, perfil, respuestas];
 
     const resultJson = JSON.stringify(result);
 
