@@ -28,7 +28,7 @@ var p14 = JSON.parse(sessionStorage.getItem("p14"));
 
 
 // Variable que recoge valor de pregunta 6 para posterior seleccionado de subperfil
-var opcion6 = resultado6.toString();
+// var opcion6 = resultado6.toString();
 
 function elQueMasAparece() {
 
