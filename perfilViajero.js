@@ -76,11 +76,11 @@ function elQueMasAparece() {
     console.log(arrayOrder);
 
     var mapeo = {};
-    var mapeo2 = {};
+    // var mapeo2 = {};
     var mas_frecuente = "";
-    var mas_frecuente2 = "";
+    // var mas_frecuente2 = "";
     var valor_mayor = 0;
-    var valor_mayor2 = 0;
+    // var valor_mayor2 = 0;
 
     // Funcion que obtiene el elemento más frecuente del array
     if (typeof arrayOrder === "string") {
@@ -103,11 +103,11 @@ function elQueMasAparece() {
     }
 
     // Filtramos para eliminar el mas frecuente
-    var newArrayOrder = arrayOrder.filter(elemento => elemento != mas_frecuente);
-    console.log(newArrayOrder);
+    // var newArrayOrder = arrayOrder.filter(elemento => elemento != mas_frecuente);
+    // console.log(newArrayOrder);
 
     // Flujo para averiguar segundo elemento
-    for (let element of newArrayOrder) {
+    /* for (let element of newArrayOrder) {
         if (mapeo2[element]) {
             mapeo2[element]++;
         } else {
@@ -120,7 +120,7 @@ function elQueMasAparece() {
             valor_mayor2 = mapeo2[element];
             mas_frecuente2 = element;
         }
-    }
+    } */
 
     // Links para las landings
     elementAstro.setAttribute("href", linkAstro);
@@ -140,11 +140,11 @@ function elQueMasAparece() {
 
     // Variables de sub-perfiles
 
-    var premium = ' premium';
+    /* var premium = ' premium';
     var low_cost = ' economico';
 
     var respPremium = "Me gusta vivir y disfrutar el viaje al máximo sin importar el costo";
-    var respLow = "Solo me gasto el dinero en experiencias o lugares muy concretos"
+    var respLow = "Solo me gasto el dinero en experiencias o lugares muy concretos" */
 
     // Flujo de control de selección de perfil de viajero
     if (mas_frecuente === 'astroturismo') {
@@ -185,7 +185,7 @@ function elQueMasAparece() {
     // Flujo que añade perfiles combinados y sub-categorías
 
     // Si son iguales, perfil combinado
-    if (valor_mayor === valor_mayor2 || (valor_mayor - valor_mayor2) <= 6) {
+    /* if (valor_mayor === valor_mayor2 || (valor_mayor - valor_mayor2) <= 6) {
         mas_frecuente += ' - ' + mas_frecuente2;
         valorDesdeLS.innerHTML = mas_frecuente;
         if (opcion6 === respPremium) {
@@ -194,16 +194,16 @@ function elQueMasAparece() {
         if (opcion6 === respLow) {
             valorDesdeLS.innerHTML = mas_frecuente + low_cost;
         }
-    }
+    } */
 
     // Un solo perfil
-    if (opcion6 === respPremium) {
+    /* if (opcion6 === respPremium) {
         mas_frecuente += premium;
         valorDesdeLS.innerHTML = mas_frecuente;
     } if (opcion6 === respLow) {
         mas_frecuente += low_cost;
         valorDesdeLS.innerHTML = mas_frecuente;
-    }
+    } */
     
 
     const perfil = mas_frecuente;
